@@ -38,9 +38,9 @@ This dataset results from a **12-year long-term ecological monitoring project** 
 The data in this repository include:
 
 - **Ant species occurrences** (presence in each trap)
-- **Species abundance proxies** (number of traps in which each species was detected = number of colonies)
-- **Taxonomic classification**: Subfamily, genus, species, morphospecies
-- **Functional group assignments**: Based on Groc et al. (2014) and ecological traits (e.g., cryptobiotic attines, generalist omnivores, predators)
+- **Species abundance proxies** (number of workers sampled in each plot)
+- **Taxonomic classification**: Subfamily, genus, species (including standardized morphospecies)
+- **Functional group assignments**: Based on Groc et al. (2014) paper
 - **Environmental descriptors**:
   - **Slope**: Terrain inclination per plot
   - **HAND**: Height above nearest drainage (proxy for water-table depth)
@@ -49,7 +49,7 @@ The data in this repository include:
 
 ### File Structure
 
-The Excel or CSV file typically contains:
+The CSV file contains:
 - `YEAR`: Sampling year
 - `SAMPLING_UNIT`: Plot ID
 - `TAXON`: Full species or morphospecies name
@@ -62,6 +62,6 @@ The Excel or CSV file typically contains:
 
 ### Citation and Contact
 
-**If you use this dataset, please cite the original study when available.**  
+**If you use this dataset, please cite the original study**  
 For questions, contact the corresponding authors:  
 *uttaacsu18@gmail.com* or *baccaro@ufam.edu.br*
